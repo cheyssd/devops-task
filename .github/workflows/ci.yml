@@ -30,7 +30,7 @@ jobs:
 
       - name: Lint du code
         # Le "|| true" permet au pipeline de continuer même si le lint échoue
-        run: npm run lint || true
+        run: npm run lint
 
       - name: Exécution des tests avec couverture
         # Le "|| true" évite que le pipeline bloque ici si vous n'avez pas encore de tests configurés
