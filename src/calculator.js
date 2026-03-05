@@ -17,4 +17,14 @@ function divide(a, b) {
     return a / b;
 }
 
-module.exports = { add, subtract, multiply, divide };
+function modulo() {
+if (b === 0){
+return a
+
+
+
+
+}
+}
+
+module.exports = { add, subtract, multiply, divide, modulo };
